@@ -10,7 +10,7 @@
 //  Bernhard Kauffmann (kabe1017)
 //  kabe1017@hs-karlsruhe.de
 //
-//  <github>
+//  https://github.com/blackbunt/Smart-Bicycle-Dashboard
 //
 //  Version: 1.3
 //  Datum: 13.01.2020
@@ -258,12 +258,12 @@ void switchLight(int brightness) {                             // controls light
   
   //If the brightness value is below the set value, the lighting system is switched on
   if (readSensorLight() < brightnessThreshold) {
-    digitalWrite(toggleLight, HIGH);
+    digitalWrite(toggleLight, LOW);
   }
 
   // When the brightness level is above the set value, the lighting system is switched off
   if(readSensorLight() >= brightnessThreshold) {
-    digitalWrite(toggleLight, LOW);
+    digitalWrite(toggleLight, HIGH);
  }
 }
 
