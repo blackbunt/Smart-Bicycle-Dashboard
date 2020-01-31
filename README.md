@@ -1,5 +1,5 @@
 # Smart-Bicycle-Dashboard
-Smart Bicycle Dashboard based on an ESP32
+## Smart Bicycle Dashboard based on an ESP32
 
 With this little project you can upgrade your normal Bicycle into a smart one.
 The smart dashboard shows the current speed, the ambient brightness and controls your lights depending on the ambient brightness.
@@ -11,7 +11,11 @@ When you start riding, it wakes up and does its job.
 If you take a break, the ESP32 will notice and power everything off for you.
 Thanks to the parking light function of the bicycle lighting, no unnecessary energy is consumed during a longer traffic light phase and you are still noticed by others!
 
+```
 The Code  is written with Platform.io, if you are using the Arduino IDE use the .ino file instead.
+```
+[Release](https://github.com/blackbunt/Smart-Bicycle-Dashboard/releases/tag/v1.3)
+
 
 
 
