@@ -14,7 +14,7 @@ Thanks to the parking light function of the bicycle lighting, no unnecessary ene
 ```
 The Code  is written with Platform.io, if you are using the Arduino IDE use the .ino file instead.
 ```
-[Release](https://github.com/blackbunt/Smart-Bicycle-Dashboard/releases/tag/v1.3)
+You can download a complete Package cotaining everything there -> [Download latest release](https://github.com/blackbunt/Smart-Bicycle-Dashboard/releases/tag/v1.3)
 
 
 
